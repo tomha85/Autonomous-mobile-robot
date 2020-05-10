@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<launch>
+  
+
+<!-- rplidar_gmapping.launch-->
+  <!-- Define laser type-->
+
+  <!-- laser driver -->
+  
+
+  <!-- Gmapping -->
+  <include file="$(find kiwi_bringup)/launch/rplidar_gmapping.launch.xml"/>
+  <!-- Move base -->
+  <include file="$(find kiwi_bringup)/launch/move_base.launch.xml"/>
+
+      
+</launch>

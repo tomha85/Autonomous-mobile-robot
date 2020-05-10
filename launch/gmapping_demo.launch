@@ -1,0 +1,6 @@
+<launch>
+  <include file="$(find kiwi_bringup)/launch/gmapping.launch"/>
+
+  <include file="$(find kiwi_bringup)/launch/tb_move_base.launch"/>
+
+</launch>

@@ -1,0 +1,8 @@
+<launch>
+  <!-- turtlebot_teleop_key already has its own built in velocity smoother -->
+  <node pkg="kiwi_bringup" type="kiwi_teleop_key" name="kiwi_teleop_key"  output="screen">
+
+<!--    <remap from="arlobot_teleop_keyboard/cmd_vel" to="diffbot_controller/cmd_vel"/> -->
+    <remap from="kiwi_teleop_key/cmd_vel" to="cmd_vel"/> 
+  </node>
+</launch>

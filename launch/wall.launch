@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+	<include file="$(find kiwi_bringup)/launch/rplidar_laser.launch"/>
+	<node name ="wall_follower" pkg="kiwi_bringup" type="wall_follower"/>
+	
+</launch> 
